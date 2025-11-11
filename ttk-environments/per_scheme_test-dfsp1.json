@@ -1,9 +1,9 @@
 {
     "inputValues": {
-      "PER_SCHEME_FSP_ID": "test-dfsp1",
-      "PER_SCHEME_SDK_OUTBOUND_URL": "http://test-dfsp1-sdk-scheme-adapter-api-svc.test-dfsp1:4001",
-      "PER_SCHEME_HAPPY_PATH_MSISDN": "+2206665551001",
-      "PER_SCHEME_CURRENCY": "GMD"
+      "DENV__FSP_ID": "test-dfsp1",
+      "DENV__SDK_OUTBOUND_URL": "http://test-dfsp1-sdk-scheme-adapter-api-svc.test-dfsp1:4001",
+      "DENV__happyPathMSISDN": "+2206665551001",
+      "DENV__currency": "GMD"
     },
     "options": {
       "breakOnError": true,

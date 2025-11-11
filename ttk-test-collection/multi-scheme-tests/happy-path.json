@@ -28,23 +28,23 @@
             "from": {
               "type": "CONSUMER",
               "idType": "MSISDN",
-              "idValue": "{$inputs.MULTI_SCHEME_PAYER_MSISDN}",
+              "idValue": "{$inputs.DENV_SOURCE_GLOBAL__happyPathMSISDN}",
               "displayName": "{$inputs.FROM_DISPLAY_NAME}",
               "firstName": "{$inputs.FROM_FIRST_NAME}",
               "middleName": "{$inputs.FROM_MIDDLE_NAME}",
               "lastName": "{$inputs.FROM_LAST_NAME}",
               "dateOfBirth": "{$inputs.FROM_DOB}",
-              "fspId": "{$inputs.MULTI_SCHEME_PAYER_FSP_ID}"
+              "fspId": "{$inputs.DENV__SOURCE_FSP_ID}"
             },
             "to": {
               "type": "CONSUMER",
               "idType": "MSISDN",
-              "idValue": "{$inputs.MULTI_SCHEME_PAYEE_MSISDN}",
+              "idValue": "{$inputs.DENV_TARGET_GLOBAL__happyPathMSISDN}",
               "merchantClassificationCode": "123"
             },
             "amountType": "SEND",
-            "currency": "{$inputs.MULTI_SCHEME_PAYER_CURRENCY}",
-            "amount": "{$inputs.MULTI_SCHEME_PAYER_AMOUNT}",
+            "currency": "{$inputs.DENV_SOURCE_GLOBAL__currency}",
+            "amount": "{$inputs.DENV_SOURCE__sendAmount}",
             "transactionType": "TRANSFER",
             "note": "{$inputs.NOTE}",
             "skipPartyLookup": false
@@ -71,7 +71,7 @@
               }
             ]
           },
-          "url": "{$inputs.MULTI_SCHEME_PAYER_SDK_OUTBOUND_URL}"
+          "url": "{$inputs.DENV__SOURCE_SDK_OUTBOUND_URL}"
         },
         {
           "id": 2,
@@ -110,7 +110,7 @@
               }
             ]
           },
-          "url": "{$inputs.MULTI_SCHEME_PAYER_SDK_OUTBOUND_URL}"
+          "url": "{$inputs.DENV__SOURCE_SDK_OUTBOUND_URL}"
         },
         {
           "id": 3,
@@ -149,7 +149,7 @@
               }
             ]
           },
-          "url": "{$inputs.MULTI_SCHEME_PAYER_SDK_OUTBOUND_URL}"
+          "url": "{$inputs.DENV__SOURCE_SDK_OUTBOUND_URL}"
         }
       ]
     }

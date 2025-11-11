@@ -23,10 +23,10 @@
           "body": [
             {
               "idType": "MSISDN",
-              "idValue": "{$inputs.PER_SCHEME_HAPPY_PATH_MSISDN}"
+              "idValue": "{$inputs.DENV__happyPathMSISDN}"
             }
           ],
-          "url": "{$inputs.PER_SCHEME_SDK_OUTBOUND_URL}",
+          "url": "{$inputs.DENV__SDK_OUTBOUND_URL}",
           "tests": {
             "assertions": [
               {
