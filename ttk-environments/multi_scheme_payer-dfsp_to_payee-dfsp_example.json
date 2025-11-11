@@ -1,0 +1,29 @@
+{
+    "inputValues": {
+      "HOME_TRANSACTION_ID": "123ABC",
+      "FROM_DISPLAY_NAME": "Display-Test",
+      "FROM_DOB": "1984-01-01",
+      "FROM_FIRST_NAME": "Firstname-Test",
+      "FROM_LAST_NAME": "Lastname-Test",
+      "FROM_MIDDLE_NAME": "Middlename-Test",
+      "NOTE": "test",
+      "MULTI_SCHEME_PAYER_FSP_ID": "test-dfsp1",
+      "MULTI_SCHEME_PAYER_SDK_OUTBOUND_URL": "http://localhost:4040",
+      "MULTI_SCHEME_PAYER_MSISDN": "+2206665551001",
+      "MULTI_SCHEME_PAYER_CURRENCY": "GMD",
+      "MULTI_SCHEME_PAYER_AMOUNT": "1",
+      "MULTI_SCHEME_PAYEE_FSP_ID": "test-dfsp2",
+      "MULTI_SCHEME_PAYEE_FSP_ID2": "test-dfsp3",
+      "MULTI_SCHEME_PAYEE1_SDK_OUTBOUND_URL": "http://localhost:4040",
+      "MULTI_SCHEME_PAYEE2_SDK_OUTBOUND_URL": "http://localhost:4040",
+      "MULTI_SCHEME_PAYEE_MSISDN": "+2206665552001",
+      "MULTI_SCHEME_PAYEE_CURRENCY": "GMD",
+      "MULTI_SCHEME_PAYEE_RECEIVE_AMOUNT": "600",
+      "MULTI_SCHEME_PAYER_TRANSFERS_ABORTED_AMOUNT":"16"
+    },
+    "options": {
+      "breakOnError": true,
+      "transformerName": "none",
+      "generateIDType": "ulid"
+    }
+  }
