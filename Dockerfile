@@ -1,9 +1,10 @@
 FROM ghcr.io/infitx-org/ml-e2e-test-runner:v0.0.10
 
 # Define variables for TTK test cases repository
-ARG TEST_CASES_REPO_TAG=v20.1.0
+ARG TEST_CASES_REPO_TAG=v20.2.0
 ARG TEST_CASES_REQUIRED_PATHS="\
     collections/hub/golden_path/e2e_tests/p2p.json \
+    collections/hub/golden_path/e2e_tests/p2p-sub.json \
     collections/hub/golden_path/e2e_tests/quotes.json \
     collections/hub/golden_path/e2e_tests/transfers.json"
 
